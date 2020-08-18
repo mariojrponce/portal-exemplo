@@ -73,7 +73,7 @@
                         </h5>
                         <div class="float-right">
                             <a href="{{ route('note.edit', $note->id ) }}" class="btn btn-sm btn-outline-primary">Editar</a>
-                            @auth<a href="{{ route('note.delete', $note->id ) }}" class="btn btn-sm btn-outline-danger">Deletar</a>@endauth
+                           <a href="{{ route('note.delete', $note->id ) }}" class="btn btn-sm btn-outline-danger">Deletar</a>
                         </div>
                     </div>
                     <div class="card-body">

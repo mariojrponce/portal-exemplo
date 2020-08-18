@@ -23,11 +23,9 @@
                                         <a href="{{route('link.edit', $link->id)}}" data-toggle="tooltip" data-placement="top" title="Editar" class="btn btn-sm btn-outline-primary mr-2">
                                             Editar
                                         </a>
-                                    @auth
                                         <a href="{{route('link.delete', $link->id)}}" data-toggle="tooltip" data-placement="top" title="Deletar"  class="btn btn-sm btn-outline-danger">
                                             Excluir
                                         </a>
-                                    @endauth
                                 </div>
                             </div>
                         @empty

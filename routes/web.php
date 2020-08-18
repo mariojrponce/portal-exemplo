@@ -11,17 +11,16 @@
 |
 */
 
-Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index');//Criado apenas para redirecionar a home com "/" ou "/home"
 
 Route::group(['prefix' => 'link'], function () {
-    Route::post('/store', 'SistemaController@store')->name('link.store');
-    Route::get('/{id}/edit', 'SistemaController@edit')->name('link.edit');
-    Route::post('/{id}', 'SistemaController@update')->name('link.update');
-    Route::get('/{link}/delete', 'SistemaController@delete')->name('link.delete');
-    Route::get('/search', 'SistemaController@search');
+    Route::post('/store', 'LinkController@store')->name('link.store');
+    Route::get('/{id}/edit', 'LinkController@edit')->name('link.edit');
+    Route::post('/{id}', 'LinkController@update')->name('link.update');
+    Route::get('/{link}/delete', 'LinkController@delete')->name('link.delete');
+    Route::get('/search', 'LinkController@search');
 });
 
 Route::get('/notes', 'NoteController@index')->name('note');
