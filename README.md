@@ -6,7 +6,8 @@
 - Laravel 8.x
 - Git
 - SQLite Studio
-- 
+- PHP >= 7.3
+- Composer
 
 # Clonando um projeto e instalando o Laravel
 
