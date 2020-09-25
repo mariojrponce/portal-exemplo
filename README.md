@@ -36,13 +36,16 @@
 *Caso sqlite:*
 
 `DB_CONNECTION=sqlite`
+
 `DB_HOST=127.0.0.1`
+
 `DB_PORT=3306`
+
 `DB_USERNAME=root`
+
 `DB_PASSWORD=root`
 
-**Criar o arquivo database**
-Crie o arquivo database.sqlite na pasta database
+**Criar o arquivo database.sqlite**
 - Windows: `New-Item -Path 'C:\Users\user\Documents\portal-exemplo\database\database.sqlite' -ItemType File`
 
 **Caso esteja faltando o driver PHP que o Laravel usa para trabalhar com o SQLite, vá no terminal e execute:**
