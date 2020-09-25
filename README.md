@@ -1,5 +1,8 @@
 # Portal 'Exemplo'
-É uma pagina web onde será possível adicionar atalhos dos sistemas mais utilizados por você. Na seção Anotações é possível adicionar textos de procedimentos realizados.
+É uma pagina web onde será possível adicionar atalhos dos sistemas mais utilizados por você. Na seção Anotações é possível adicionar textos de procedimentos mais realizados por você ou sua organização.
+
+# Exemplo de uso
+- https://youtu.be/gXvGIeLwVDw
 
 # Software necessários para executar o projeto
 - Visual Code
