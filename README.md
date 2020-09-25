@@ -1,3 +1,5 @@
+# Portal 'Exemplo'
+É uma pagina web onde será possível adicionar atalhos dos sistemas mais utilizados por você. Na seção Anotações é possível adicionar textos de procedimentos realizados.
 
 # Clonando um projeto e instalando o Laravel
 
