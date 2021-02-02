@@ -1,5 +1,8 @@
 # Portal 'Exemplo'
-É uma pagina web onde será possível adicionar atalhos dos sistemas mais utilizados por você. Na seção Anotações é possível adicionar textos de procedimentos realizados.
+É uma pagina web onde será possível adicionar atalhos dos sistemas mais utilizados por você. Na seção Anotações é possível adicionar textos de procedimentos mais realizados por você ou sua organização.
+
+# Exemplo de uso
+- https://youtu.be/gXvGIeLwVDw
 
 # Software necessários para executar o projeto
 - Visual Code
@@ -44,6 +47,9 @@
 `DB_USERNAME=root`
 
 `DB_PASSWORD=root`
+
+**Criar o arquivo database.sqlite**
+- Windows: `New-Item -Path 'C:\Users\user\Documents\portal-exemplo\database\database.sqlite' -ItemType File`
 
 **Caso esteja faltando o driver PHP que o Laravel usa para trabalhar com o SQLite, vá no terminal e execute:**
 
